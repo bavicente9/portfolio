@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+:root{
+  --Blue:#3A89C5;
+  --DarkBlue:#3A44C5;
+  --Cyan:#3AC5BB;
+  --DarkCyan:#00ADA1;
+  --LigthGray:#F3F3F3;
+  --DarkGray:#EAEAEA;
+
+  --GeneralBackGround: linear-gradient(90.09deg, #3A89C5 0.07%, #3AC5BB 99.91%);
+  --GeneralMarginWidth:7vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*General styles*/
+.button{
+  height: 45px;
+  width: 125px;
+  background: var(--Cyan);
+  color: #fff;
+  
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: -3px 3px 4px rgb(70, 70, 70);
+  cursor: pointer;
+  font-family:'Roboto', sans-serif;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button:hover{
+  background:var(--DarkCyan);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/**/
+
+.header{
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.presentation{
+  background-color: yellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects {
+  background-color: aqua;
+}
+
+.skilss{
+  background-color: blueviolet;
+}
+
+.contact{
+  background-color: coral;
 }

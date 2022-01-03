@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header renders correctly 1`] = `
+<DocumentFragment>
+  <header
+    aria-label="header"
+    class="header"
+  >
+    <div
+      class="header__container"
+    >
+      <a
+        aria-label="Contact me"
+        class="button button--navbar"
+        href="#contact"
+        rel="tag"
+      >
+        Contact
+      </a>
+      <nav
+        class="header__navbar"
+        id="header__navbar"
+        role="menubar"
+      >
+        <ul>
+          <li
+            class="navbar__item"
+          >
+            <a
+              href="#presentation"
+              rel="section"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            class="navbar__item"
+          >
+            <a
+              href="#projects"
+              rel="section"
+            >
+              Projects
+            </a>
+          </li>
+          <li
+            class="navbar__item"
+          >
+            <a
+              href="#skilss"
+              rel="section"
+            >
+              Skills
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        aria-label="toggle menu options"
+        class="header__buttonMenu buttonMenu--hidden buttonMenu--visible-true buttonMenu--visible-false"
+      />
+    </div>
+    <nav
+      class="header__rMenu "
+      id="header__rMenu"
+      role="menu"
+    >
+      <ul>
+        <li
+          class="navbar__item"
+        >
+          <a
+            href="#presentation"
+            rel="section"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="navbar__item"
+        >
+          <a
+            href="#projects"
+            rel="section"
+          >
+            Projects
+          </a>
+        </li>
+        <li
+          class="navbar__item"
+        >
+          <a
+            href="#skilss"
+            rel="section"
+          >
+            Skills
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</DocumentFragment>
+`;

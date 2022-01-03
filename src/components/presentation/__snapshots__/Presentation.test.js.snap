@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section: Presentation renders correctly 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Presentation"
+    class="presentation"
+    id="presentation"
+  >
+    <div
+      class="presentation__container"
+    >
+      <h1>
+        Hello! i'm Bryan Vicente, web developer.
+      </h1>
+      <p>
+        I am passionate about technology,improve my skills , get new knowledge continuously, and build  the bests websites with good practics and a great accessibility.
+      </p>
+      <div
+        class="presentation__buttons"
+      >
+        <a
+          class="button button-presentation"
+          href=""
+          rel="external"
+        >
+          Resume
+        </a>
+        <a
+          class="button button-presentation"
+          href="https://github.com/bavicente9"
+          rel="external"
+        >
+          GitHub
+        </a>
+      </div>
+      <div
+        class="presentation__avatar"
+      >
+        <img
+          alt=""
+          src="avatar.svg"
+        />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

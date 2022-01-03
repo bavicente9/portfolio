@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.presentation {
+    background: var(--GeneralBackGround);
+}
+
+.presentation__container {
+    padding: 50px var(--GeneralMarginWidth) ;
+    display: grid;
+    grid-template-areas:
+        'title avatar'
+        'description avatar'
+        'buttons avatar'
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content min-content;
+
+    place-items: center;
+    color: #000;
+}
+
+/*Info*/
+.presentation h1 {
+    grid-area: title;
+    width: 100%;
+    max-width: 650px;
+
+    margin-bottom: 0;
+
+    font-family: 'Indie Flower', cursive, sans-serif, cursive;
+    font-size: 2.5rem;
+
+}
+
+.presentation p {
+    grid-area: description;
+    width: 100%;
+    max-width: 650px;
+    font-size: 1.5rem;
+}
+
+.presentation__buttons {
+    grid-area: buttons;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25px;
+}
+
+.button-presentation {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+/*Image*/
+
+.presentation__avatar {
+    grid-area: avatar;
+    height: 25vw;
+    max-height: 300px;
+    width: 20vw;
+    max-width: 300px;
+}
+
+.presentation__avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+@media (max-width:930px) {
+
+    .presentation__container {
+        display: grid;
+        grid-template-areas:
+            'title avatar'
+            'description description'
+            'buttons buttons'
+        ;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: min-content min-content min-content;
+
+        justify-items:left;
+
+        padding: 50px var(--GeneralRMarginWidth);
+    }
+
+    /*Info*/
+    .presentation h1 {
+        font-size: 2rem;
+    }
+
+    .presentation p {
+        font-size: 1.2rem;
+    }
+    
+   
+
+    /*Image*/
+
+    .presentation__avatar {
+        min-height: 150px;
+        min-width: 120px;
+        justify-self: center;
+    }
+
+}

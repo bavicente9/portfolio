@@ -11,6 +11,7 @@
 
   --GeneralBackGround: linear-gradient(90.09deg, #3A89C5 0.07%, #3AC5BB 99.91%);
   --GeneralMarginWidth:7vw;
+  --GeneralRMarginWidth:5vw;
 }
 
 
@@ -19,6 +20,8 @@
   scroll-behavior: smooth;
   scroll-margin-top: 100px;
 }
+
+
 .button{
   height: 45px;
   width: 125px;
@@ -38,15 +41,11 @@
   background: var(--Cyan);
 }
 
+
 /**/
 
-.presentation{
-  background-color: yellow;
-  height: 800px;
-}
-
 .projects {
-  background-color: aqua;
+  background-color: rgb(72, 255, 0);
   height: 800px;
 }
 

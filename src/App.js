@@ -2,14 +2,16 @@
 import './App.css';
 import { Header } from './components/header/Header';
 
-const App =()=> {
+const App = () => {
   return (
     <div className="App">
-        <Header />
-        <div className='presentation'>Presentation</div>
-        <div className='projects'>Projects</div>
-        <div className='skills'>Skills</div>
-        <div className='contact'>Contact</div>
+      <Header />
+      <main>
+        <section role='presentation' id='presentation' className='presentation'>Presentation</section>
+        <section role = 'projects' id='projects' className='projects'>Projects</section>
+        <section role='skills' id='skilss' className='skills'>Skills</section>
+        <section role='contact' id='contact' className='contact'>Contact</section>
+      </main>
     </div>
   );
 }

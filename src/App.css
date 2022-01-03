@@ -5,7 +5,7 @@
   --Blue:#3A89C5;
   --DarkBlue:#3A44C5;
   --Cyan:#3AC5BB;
-  --DarkCyan:#00ADA1;
+  --DarkCyan:#007e76;
   --LigthGray:#F3F3F3;
   --DarkGray:#EAEAEA;
 
@@ -15,10 +15,14 @@
 
 
 /*General styles*/
+*{
+  scroll-behavior: smooth;
+  scroll-margin-top: 100px;
+}
 .button{
   height: 45px;
   width: 125px;
-  background: var(--Cyan);
+  background:var(--DarkCyan);
   color: #fff;
   
   border: none;
@@ -27,31 +31,31 @@
   box-shadow: -3px 3px 4px rgb(70, 70, 70);
   cursor: pointer;
   font-family:'Roboto', sans-serif;
-
+  
 }
 
 .button:hover{
-  background:var(--DarkCyan);
+  background: var(--Cyan);
 }
 
 /**/
 
-.header{
-  background-color: white;
-}
-
 .presentation{
   background-color: yellow;
+  height: 800px;
 }
 
 .projects {
   background-color: aqua;
+  height: 800px;
 }
 
-.skilss{
+.skills{
   background-color: blueviolet;
+  height: 800px;
 }
 
 .contact{
+  height: 800px;
   background-color: coral;
 }

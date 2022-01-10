@@ -34,6 +34,7 @@
   box-shadow: -3px 3px 4px rgb(70, 70, 70);
   cursor: pointer;
   font-family:'Roboto', sans-serif;
+  font-weight: 600;
   
 }
 
@@ -44,10 +45,6 @@
 
 /**/
 
-.projects {
-  background-color: rgb(72, 255, 0);
-  height: 800px;
-}
 
 .skills{
   background-color: blueviolet;

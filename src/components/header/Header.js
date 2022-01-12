@@ -31,7 +31,7 @@ export const Header = () => {
                     <ul>
                         <li className='navbar__item'><a rel='section' href='#presentation'>Home</a></li>
                         <li className='navbar__item'><a rel='section' href='#projects' >Projects</a></li>
-                        <li className='navbar__item'><a rel='section' href='#skilss'>Skills</a></li>
+                        <li className='navbar__item'><a rel='section' href='#skills'>Skills</a></li>
                     </ul>
                 </nav>
 
@@ -45,7 +45,7 @@ export const Header = () => {
                 <ul>
                     <li className='navbar__item'><a rel='section' onClick={handleToggleRMenu} href='#presentation'>Home</a></li>
                     <li className='navbar__item'><a rel='section' onClick={handleToggleRMenu} href='#projects' >Projects</a></li>
-                    <li className='navbar__item'><a rel='section' onClick={handleToggleRMenu} href='#skilss'>Skills</a></li>
+                    <li className='navbar__item'><a rel='section' onClick={handleToggleRMenu} href='#skills'>Skills</a></li>
                 </ul>
             </nav>
         </header>

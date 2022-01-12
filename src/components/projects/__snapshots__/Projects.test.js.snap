@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Projects renders correctly 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="projects"
+    class="projects"
+    id="projects"
+  >
+    <h1>
+      Projects
+    </h1>
+    <div
+      class="projects__container"
+    >
+      <div
+        class="projects__cardsContainer"
+      >
+        <div
+          class="projects__card"
+        >
+          <div
+            class="projects__cardImage"
+          >
+            <img
+              alt=""
+              src="./images/maribelnails.png"
+            />
+          </div>
+          <div
+            class="projects__cardInfo"
+          >
+            <h2>
+              project Name1
+            </h2>
+            <ul
+              class="projects__cardInfoTechnologies"
+            >
+              <li>
+                React
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                Css
+              </li>
+              <li>
+                HTML
+              </li>
+            </ul>
+            <p>
+              Here goes the project's description
+            </p>
+            <nav
+              aria-label="project links"
+              class="projects__cardButtons"
+            >
+              <a
+                class="button"
+                href="https://github.com"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+              <a
+                class="button button--white"
+                href="https://github.com"
+                target="_blank"
+              >
+                Github
+              </a>
+            </nav>
+          </div>
+        </div>
+        <div
+          class="projects__card"
+        >
+          <div
+            class="projects__cardImage"
+          >
+            <img
+              alt=""
+              src="./images/maribelnails.png"
+            />
+          </div>
+          <div
+            class="projects__cardInfo"
+          >
+            <h2>
+              project Name2
+            </h2>
+            <ul
+              class="projects__cardInfoTechnologies"
+            >
+              <li>
+                React
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                Css
+              </li>
+              <li>
+                HTML
+              </li>
+            </ul>
+            <p>
+              Here goes the project's description
+            </p>
+            <nav
+              aria-label="project links"
+              class="projects__cardButtons"
+            >
+              <a
+                class="button"
+                href="https://github.com"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+              <a
+                class="button button--white"
+                href="https://github.com"
+                target="_blank"
+              >
+                Github
+              </a>
+            </nav>
+          </div>
+        </div>
+        <div
+          class="projects__card"
+        >
+          <div
+            class="projects__cardImage"
+          >
+            <img
+              alt=""
+              src="./images/maribelnails.png"
+            />
+          </div>
+          <div
+            class="projects__cardInfo"
+          >
+            <h2>
+              project Name3
+            </h2>
+            <ul
+              class="projects__cardInfoTechnologies"
+            >
+              <li>
+                React
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                Css
+              </li>
+              <li>
+                HTML
+              </li>
+            </ul>
+            <p>
+              Here goes the project's description
+            </p>
+            <nav
+              aria-label="project links"
+              class="projects__cardButtons"
+            >
+              <a
+                class="button"
+                href="https://github.com"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+              <a
+                class="button button--white"
+                href="https://github.com"
+                target="_blank"
+              >
+                Github
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <nav
+        aria-label="Projects pages"
+        class="projects__nav"
+      >
+        <button
+          class="projects__navButton projects__navButton--selected"
+          id="projects__navButton1"
+          value="1"
+        >
+          1
+        </button>
+        <button
+          class="projects__navButton "
+          id="projects__navButton2"
+          value="2"
+        >
+          2
+        </button>
+      </nav>
+    </div>
+  </section>
+</DocumentFragment>
+`;

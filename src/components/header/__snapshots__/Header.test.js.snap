@@ -47,7 +47,7 @@ exports[`Testing Header renders correctly 1`] = `
             class="navbar__item"
           >
             <a
-              href="#skilss"
+              href="#skills"
               rel="section"
             >
               Skills
@@ -90,7 +90,7 @@ exports[`Testing Header renders correctly 1`] = `
           class="navbar__item"
         >
           <a
-            href="#skilss"
+            href="#skills"
             rel="section"
           >
             Skills

@@ -3,7 +3,7 @@ import './App.css';
 import { Header } from './components/header/Header';
 import { Presentation } from './components/presentation/Presentation';
 import { Projects } from './components/projects/Projects';
-import projectsInfo from './components/projects/ProjectsInfo.json'
+import projectsInfo from './json/ProjectsInfo.json'
 
 const App = () => {
   return (

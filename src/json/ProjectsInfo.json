@@ -1,7 +1,7 @@
 [
     {
         "name": "project Name1",
-        "image": "./images/maribelnails.png",
+        "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
             "JavaScript",
@@ -14,7 +14,7 @@
     },
     {
         "name": "project Name2",
-        "image": "./images/maribelnails.png",
+        "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
             "JavaScript",
@@ -27,7 +27,7 @@
     },
     {
         "name": "project Name3",
-        "image": "./images/maribelnails.png",
+        "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
             "JavaScript",
@@ -40,7 +40,7 @@
     }
     ,{
         "name": "project Name4",
-        "image": "./images/maribelnails.png",
+        "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
             "JavaScript",
@@ -53,7 +53,7 @@
     },
     {
         "name": "project Name5",
-        "image": "./images/maribelnails.png",
+        "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
             "JavaScript",
@@ -66,7 +66,7 @@
     },
     {
         "name": "project Name6",
-        "image": "./images/maribelnails.png",
+        "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
             "JavaScript",
@@ -79,7 +79,7 @@
     }
     ,{
         "name": "project Name7",
-        "image": "./images/maribelnails.png",
+        "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
             "JavaScript",
@@ -92,7 +92,7 @@
     },
     {
         "name": "project Name8",
-        "image": "./images/maribelnails.png",
+        "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
             "JavaScript",

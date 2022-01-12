@@ -3,7 +3,9 @@ import './App.css';
 import { Header } from './components/header/Header';
 import { Presentation } from './components/presentation/Presentation';
 import { Projects } from './components/projects/Projects';
+import { Skills } from './components/skills/Skills';
 import projectsInfo from './json/ProjectsInfo.json'
+import skillsInfo from './json/Skills.json'
 
 const App = () => {
   return (
@@ -12,7 +14,7 @@ const App = () => {
       <main>
         <Presentation />
         <Projects infoJson = {projectsInfo} />
-        <section aria-label='skills'   id='skills'   className='skills'>Skills</section>
+        <Skills infoJson = {skillsInfo}/>
         <section aria-label='contact'  id='contact' className='contact'>Contact</section>
       </main>
     </div>

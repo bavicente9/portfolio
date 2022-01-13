@@ -11,7 +11,7 @@ exports[`Section: Presentation renders correctly 1`] = `
       class="presentation__container"
     >
       <h1>
-        Hello! i'm Bryan Vicente, web developer.
+        Hi! i'm Bryan Vicente, web developer.
       </h1>
       <p>
         I am passionate about technology,improve my skills , get new knowledge continuously, and build  the bests websites with good practics and a great accessibility.

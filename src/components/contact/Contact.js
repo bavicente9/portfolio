@@ -16,7 +16,7 @@ export const Contact = ({infoJson}) => {
                       </div>
                     </div>
                 </div>
-                <form className='contact__form' name="contact" method="POST" data-netlify="true">
+                <form className='contact__form' name="contact" method="POST" netlify >
                     <label>Name:<input type="text" name="name" placeholder='name'    required /></label>
                     <label>email:<input type="email" name="email" placeholder='email' required/></label>
                     <label>message:<textarea name="message" placeholder='message'required /></label>

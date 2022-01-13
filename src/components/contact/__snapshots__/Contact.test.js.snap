@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills renders correctly 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="contact"
+    class="contact"
+    id="contact"
+  >
+    <h1>
+      Contact
+    </h1>
+    <div
+      class="contact__container"
+    >
+      <div
+        class="contact__personalMessage"
+      >
+        <p>
+          Feel free to send me a message, i,ll reply you as soon as possible.
+        </p>
+        <div
+          class="contact__socialMedia"
+        >
+          <label>
+            <b>
+              Email: 
+            </b>
+            bavicente98@gmail.com
+          </label>
+          <div
+            class="contact__socialMediaLinks"
+          >
+            <a
+              aria-label="github"
+              class="contact__socialMediaBtn contact__btnGithub"
+              href="github.com"
+              rel="external"
+            />
+            <a
+              aria-label="linkedin"
+              class="contact__socialMediaBtn contact__btnLinkedin"
+              href="linkedin.com"
+              rel="external"
+            />
+          </div>
+        </div>
+      </div>
+      <form
+        class="contact__form"
+        data-netlify="true"
+        method="POST"
+        name="contact"
+      >
+        <label>
+          Name:
+          <input
+            name="name"
+            placeholder="name"
+            required=""
+            type="text"
+          />
+        </label>
+        <label>
+          email:
+          <input
+            name="email"
+            placeholder="email"
+            required=""
+            type="email"
+          />
+        </label>
+        <label>
+          message:
+          <textarea
+            name="message"
+            placeholder="message"
+            required=""
+          />
+        </label>
+        <button
+          class="button button-form"
+          type="submit"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+  </section>
+</DocumentFragment>
+`;

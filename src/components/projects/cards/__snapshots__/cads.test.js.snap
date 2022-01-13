@@ -45,6 +45,7 @@ exports[`Testing Projects renders correctly 1`] = `
         <a
           class="button"
           href="https://github.com"
+          rel="external"
           target="_blank"
         >
           Live Demo
@@ -52,6 +53,7 @@ exports[`Testing Projects renders correctly 1`] = `
         <a
           class="button button--white"
           href="https://github.com"
+          rel="external"
           target="_blank"
         >
           Github

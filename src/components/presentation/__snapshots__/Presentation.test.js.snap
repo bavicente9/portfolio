@@ -21,7 +21,7 @@ exports[`Section: Presentation renders correctly 1`] = `
       >
         <a
           class="button button-presentation"
-          href=""
+          href="https://github.com/bavicente9/portfolio/blob/master/public/resume/resume-Bryan_Vicente.pdf"
           rel="external"
         >
           Resume

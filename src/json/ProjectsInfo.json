@@ -1,106 +1,81 @@
 [
     {
-        "name": "project Name1",
+        "name": "beuty salon website",
         "image": "./images/projects/maribelnails.png",
         "technologies": [
             "React",
+            "React Router",
             "JavaScript",
-            "Css",
+            "CSS",
             "HTML"
         ],
-        "description": "Here goes the project's description: exampmle: Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website",
-        "link_liveDemo": "https://github.com",
-        "link_github": "https://github.com"
+        "description": "This is a website for a beuty salon that i design with Figma, it have a responsive design and i made it with React, React Router, javaScript and CSS.It show the services, contact info and a map of the salon's location.",
+        "link_liveDemo": "https://www.maribelnails.com/",
+        "link_github": "https://github.com/bavicente9/web-maribel-nails"
     },
     {
-        "name": "project Name2",
-        "image": "./images/projects/maribelnails.png",
+        "name": "My Portfolio",
+        "image": "./images/projects/myportfolio.png",
         "technologies": [
             "React",
             "JavaScript",
-            "Css",
-            "HTML"
+            "CSS",
+            "HTML",
+            "Jest"
         ],
-        "description": "Here goes the project's description: exampmle: Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website",
-        "link_liveDemo": "https://github.com",
-        "link_github": "https://github.com"
+        "description": "My own portfolio! I designed it with a responsive layout and a good accesibility according with the w3c.\nI made it with React, CSS, JavaScript and HTML and unit testing with Jest.For the form i used the services of Netlify.",
+        "link_liveDemo": "https://bryanvicente.netlify.app",
+        "link_github": "https://github.com/bavicente9/portfolio"
     },
     {
-        "name": "project Name3",
-        "image": "./images/projects/maribelnails.png",
+        "name": "Bill Software",
+        "image": "./images/projects/billSoftware.png",
         "technologies": [
-            "React",
-            "JavaScript",
-            "Css",
-            "HTML"
+           "Java",
+           "SQLite"
         ],
-        "description": "Here goes the project's description: exampmle: Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website",
-        "link_liveDemo": "https://github.com",
-        "link_github": "https://github.com"
+        "description": "This project is a desktop app, is a bill software designed by me and it use a relational data base with SQLite ad OOP. It has various modules to manage products, clients and invoices also it has a UI for the cashier where him can create new invoices and add or edit client's information.",
+        "link_liveDemo": "undefined",
+        "link_github": "https://github.com/bavicente9/bill-Software"
     }
     ,{
-        "name": "project Name4",
-        "image": "./images/projects/maribelnails.png",
+        "name": "Url Shortering",
+        "image": "./images/projects/urlShortering.png",
         "technologies": [
             "React",
             "JavaScript",
-            "Css",
-            "HTML"
+            "CSS",
+            "HTML",
+            "Jest"
+
         ],
-        "description": "Here goes the project's description: exampmle: Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website",
-        "link_liveDemo": "https://github.com",
-        "link_github": "https://github.com"
+        "description":"This is a url shortering that use an API to generate the results, is a challenge from frontendmentor.io. To make this project i used React, JavaScript, CSS and for unit tests i used Jest.",
+        "link_liveDemo": "https://vigilant-pike-1c4239.netlify.app/",
+        "link_github": "https://github.com/bavicente9/url-shortening-api"
     },
     {
-        "name": "project Name5",
-        "image": "./images/projects/maribelnails.png",
+        "name": "Crowdfunding page",
+        "image": "./images/projects/crowdfundingPage.png",
         "technologies": [
-            "React",
             "JavaScript",
             "Css",
             "HTML"
         ],
-        "description": "Here goes the project's description: exampmle: Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website",
-        "link_liveDemo": "https://github.com",
-        "link_github": "https://github.com"
+        "description": "This project is a demo page for a crowdfunding website using responsive design without using any framework, is a challenge from frontendmentor.io, it have a interaction between the doom and the user input, to make this project i used JavaScript, HTML, CSS.",
+        "link_liveDemo": "https://focused-payne-3828be.netlify.app/#about-this-project",
+        "link_github": "https://github.com/bavicente9/crowdfunding-page"
     },
     {
-        "name": "project Name6",
-        "image": "./images/projects/maribelnails.png",
+        "name": "tips calculator",
+        "image": "./images/projects/tipsCalculator.png",
         "technologies": [
-            "React",
             "JavaScript",
             "Css",
             "HTML"
         ],
-        "description": "Here goes the project's description: exampmle: Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website",
-        "link_liveDemo": "https://github.com",
-        "link_github": "https://github.com"
+        "description": "This project is a frontendmentor.io challenge is a tips calculator with a responsive layout. i used JavaScript, CSS and HTML to make this project.",
+        "link_liveDemo": "https://awesome-sammet-c9ab06.netlify.app",
+        "link_github": "https://github.com/bavicente9/TipCalculator"
     }
-    ,{
-        "name": "project Name7",
-        "image": "./images/projects/maribelnails.png",
-        "technologies": [
-            "React",
-            "JavaScript",
-            "Css",
-            "HTML"
-        ],
-        "description": "Here goes the project's description: exampmle: Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website",
-        "link_liveDemo": "https://github.com",
-        "link_github": "https://github.com"
-    },
-    {
-        "name": "project Name8",
-        "image": "./images/projects/maribelnails.png",
-        "technologies": [
-            "React",
-            "JavaScript",
-            "Css",
-            "HTML"
-        ],
-        "description": "Here goes the project's description: exampmle: Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website",
-        "link_liveDemo": "https://github.com",
-        "link_github": "https://github.com"
-    }
+
 ]

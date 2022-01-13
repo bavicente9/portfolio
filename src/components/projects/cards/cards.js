@@ -20,8 +20,13 @@ const generateCards = (page, infoJson) => {
                     </ul>
                     <p>{item.description}</p>
                     <nav className='projects__cardButtons' aria-label='project links'>
+<<<<<<< Updated upstream
                         <a className='button' href={item.link_liveDemo} target="_blank">Live Demo</a>
                         <a className='button button--white' href={item.link_github} target="_blank">Github</a>
+=======
+                        <a rel='noopener' className='button' href={item.link_liveDemo} target="_blank">Live Demo</a>
+                        <a rel='noopener' className='button button--white' href={item.link_github} target="_blank">Github</a>
+>>>>>>> Stashed changes
                     </nav>
                 </div>
             </div>

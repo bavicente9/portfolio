@@ -1,5 +1,4 @@
 import './Header.css'
-import icon_hamburger from './icon-hamburger.svg'
 
 export const Header = () => {
 

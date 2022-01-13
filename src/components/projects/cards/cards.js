@@ -20,8 +20,8 @@ const generateCards = (page, infoJson) => {
                     </ul>
                     <p>{item.description}</p>
                     <nav className='projects__cardButtons' aria-label='project links'>
-                        <a className='button' href={item.link_liveDemo} target="_blank">Live Demo</a>
-                        <a className='button button--white' href={item.link_github} target="_blank">Github</a>
+                        <a rel='external' className='button' href={item.link_liveDemo} target="_blank">Live Demo</a>
+                        <a rel='external' className='button button--white' href={item.link_github} target="_blank">Github</a>
                     </nav>
                 </div>
             </div>

@@ -1,8 +1,9 @@
 import { Skills } from "./Skills"
-import { render} from '@testing-library/react'
+import { render } from '@testing-library/react'
 
 describe('Skills', () => {
-    const infoJson = JSON.parse( `{
+    const infoJson = JSON.parse(`
+    [{
         "name": "React",
         "img": "./images/icons/icon_react1.svg"
     },
@@ -13,9 +14,11 @@ describe('Skills', () => {
     {
         "name": "CSS",
         "img": "./images/icons/icon_css.svg"
-    }`)
+    }]`
+    )
+
     it('renders correctly', () => {
-        const { asFragment } = render(<Skills infoJson={}/>)
+        const { asFragment } = render(<Skills infoJson={infoJson} />)
         expect(asFragment()).toMatchSnapshot()
     })
 })

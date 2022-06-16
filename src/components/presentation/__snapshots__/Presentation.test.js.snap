@@ -14,7 +14,7 @@ exports[`Section: Presentation renders correctly 1`] = `
         Hi! i'm Bryan Vicente, web developer.
       </h1>
       <p>
-        I am passionate about technology,improve my skills , get new knowledge continuously, and build  the bests websites with good practics and a great accessibility.
+        I am passionate about technology,improve my skills , get new knowledge continuously, and build  the bests websites with good practics.
       </p>
       <div
         class="presentation__buttons"

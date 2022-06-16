@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills renders correctly 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="skills"
+    class="skills"
+    id="skills"
+  >
+    <h1>
+      Skills
+    </h1>
+    <ul
+      aria-label="list of skills"
+      class="skills__container"
+    >
+      <li
+        class="skills__item"
+      >
+        <span
+          class="skills__itemImg"
+        >
+          <img
+            alt=""
+            src="./images/icons/icon_react1.svg"
+          />
+        </span>
+        <p
+          class="skills__itemName"
+        >
+          React
+        </p>
+      </li>
+      <li
+        class="skills__item"
+      >
+        <span
+          class="skills__itemImg"
+        >
+          <img
+            alt=""
+            src="./images/icons/icon_javaScript.svg"
+          />
+        </span>
+        <p
+          class="skills__itemName"
+        >
+          JavaScript
+        </p>
+      </li>
+      <li
+        class="skills__item"
+      >
+        <span
+          class="skills__itemImg"
+        >
+          <img
+            alt=""
+            src="./images/icons/icon_css.svg"
+          />
+        </span>
+        <p
+          class="skills__itemName"
+        >
+          CSS
+        </p>
+      </li>
+    </ul>
+  </section>
+</DocumentFragment>
+`;

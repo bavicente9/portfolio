@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import { Presentation } from "./presentation"
+import { Presentation } from "./Presentation"
 
 
 describe('Section: Presentation', () => {

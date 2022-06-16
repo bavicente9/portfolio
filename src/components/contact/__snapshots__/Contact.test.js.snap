@@ -48,10 +48,15 @@ exports[`Skills renders correctly 1`] = `
       </div>
       <form
         class="contact__form"
-        data-netlify="true"
         method="POST"
         name="contact"
+        netlify="true"
       >
+        <input
+          name="form-name"
+          type="hidden"
+          value="contact"
+        />
         <label>
           Name:
           <input

@@ -1,5 +1,20 @@
 [
     {
+        "name": "Todo App",
+        "image": "./images/projects/todoApp.png",
+        "technologies": [
+            "React",
+            "Redux",
+            "JavaScript",
+            "CSS",
+            "Sass",
+            "Unit test"
+        ],
+        "description": "The classic todo app with a few twists! This app includes a dark/light theme toggle.",
+        "link_liveDemo": "https://phenomenal-trifle-e82848.netlify.app/",
+        "link_github": "https://github.com/bavicente9/todo-app"
+    },
+    {
         "name": "beuty salon website",
         "image": "./images/projects/maribelnails.png",
         "technologies": [
@@ -9,7 +24,7 @@
             "CSS",
             "HTML"
         ],
-        "description": "This is a website for a beuty salon that i design with Figma, it have a responsive design and i made it with React, React Router, javaScript and CSS.It show the services, contact info and a map of the salon's location.",
+        "description": "This is a website for a beuty salon that i design with Figma, it has a responsive design and i made it with React, React Router, javaScript and CSS.It show the services, contact info and a map of the salon's location.",
         "link_liveDemo": "https://www.maribelnails.com/",
         "link_github": "https://github.com/bavicente9/web-maribel-nails"
     },
@@ -28,17 +43,6 @@
         "link_github": "https://github.com/bavicente9/portfolio"
     },
     {
-        "name": "Bill Software",
-        "image": "./images/projects/billSoftware.png",
-        "technologies": [
-           "Java",
-           "SQLite"
-        ],
-        "description": "This project is a desktop app, is a bill software designed by me and it use a relational data base with SQLite ad OOP. It has various modules to manage products, clients and invoices also it has a UI for the cashier where him can create new invoices and add or edit client's information.",
-        "link_liveDemo": "undefined",
-        "link_github": "https://github.com/bavicente9/bill-Software"
-    }
-    ,{
         "name": "Url Shortering",
         "image": "./images/projects/urlShortering.png",
         "technologies": [
@@ -76,6 +80,17 @@
         "description": "This project is a frontendmentor.io challenge is a tips calculator with a responsive layout. i used JavaScript, CSS and HTML to make this project.",
         "link_liveDemo": "https://awesome-sammet-c9ab06.netlify.app",
         "link_github": "https://github.com/bavicente9/TipCalculator"
+    },
+    {
+        "name": "Bill App",
+        "image": "./images/projects/billSoftware.png",
+        "technologies": [
+           "Java",
+           "SQLite"
+        ],
+        "description": "This project is a desktop app, is a bill software designed by me and it use a relational data base with SQLite ad OOP. It has various modules to manage products, clients and invoices also it has a UI for the cashier where him can create new invoices and add or edit client's information.",
+        "link_liveDemo": "undefined",
+        "link_github": "https://github.com/bavicente9/bill-Software"
     }
-
+    
 ]

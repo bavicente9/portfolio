@@ -15,8 +15,14 @@
         "name": "HTML5",
         "img": "./images/icons/icon_html.svg"
     },
+  
     {
-        "name": "Java",
-        "img": "./images/icons/icon_java.svg"
+        "name": "Sass",
+        "img": "./images/icons/icon_sass.svg"
+    },
+    {
+        "name": "Redux",
+        "img": "./images/icons/icon_redux.svg"
     }
+  
 ]

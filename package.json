@@ -35,7 +35,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
     "@testing-library/dom": "^8.11.1",
-    "@testing-library/user-event": "^13.5.0"
+    "@testing-library/user-event": "^13.5.0",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.73.0"
   }
 }

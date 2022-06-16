@@ -11,12 +11,12 @@ export const Contact = ({ infoJson }) => {
                     <div className='contact__socialMedia'>
                         <label><b>Email: </b>{infoJson.email}</label>
                         <div className='contact__socialMediaLinks'>
-                            <a rel='external' href={infoJson.links.github} aria-label='github' className='contact__socialMediaBtn contact__btnGithub' ></a>
+                            <a rel='external' href={infoJson.links.github} aria-label='github' className='contact__socialMediaBtn contact__btnGithub'></a>
                             <a rel='external' href={infoJson.links.linkedin} aria-label='linkedin' className='contact__socialMediaBtn contact__btnLinkedin' ></a>
                         </div>
                     </div>
                 </div>
-                <form className='contact__form' name="contact" method="POST" netlify >
+                <form className='contact__form' name="contact" method="POST" netlify='true' >
                     <input type="hidden" name="form-name" value="contact" />
                     <label>Name:<input type="text" name="name" placeholder='name' required /></label>
                     <label>email:<input type="email" name="email" placeholder='email' required /></label>

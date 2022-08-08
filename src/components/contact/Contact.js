@@ -7,7 +7,7 @@ export const Contact = ({ infoJson }) => {
             <h1>Contact</h1>
             <div className='contact__container'>
                 <div className='contact__personalMessage'>
-                    <p>Feel free to send me a message, i,ll reply you as soon as possible.</p>
+                    <p>Feel free to send me a message, i'll reply you as soon as possible.</p>
                     <div className='contact__socialMedia'>
                         <label><b>Email: </b>{infoJson.email}</label>
                         <div className='contact__socialMediaLinks'>

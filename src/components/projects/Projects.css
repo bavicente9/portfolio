@@ -1,5 +1,5 @@
 .projects h1{
-    color: var(--DarkBlue);
+    color: var(--DarkOrange);
     text-transform: uppercase;
     text-align: center;
     font-size: 2rem;
@@ -35,7 +35,7 @@
     place-items: center;
 
     padding: 50px 0;
-    border: 1px solid var(--Blue);
+    border: 1px solid var(--Orange);
     border-width: 1px 0  0 0;
 }
 
@@ -45,7 +45,7 @@
     background: var(--GeneralBackGround);
     display: grid;
     place-items: center;
-    border: 1px solid var(--Blue);
+    border: 2px solid var(--Orange);
     border-radius: 25px;
 }
 
@@ -59,11 +59,13 @@
 
 .projects__cardInfo {
     margin: 10px;
+    height: 90%;
+    width: 95%;
 }
 
 .projects__cardInfo h2 {
     font-size: 2rem;
-    color: var(--DarkCyan);
+    color: var(--DarkOrange);
     text-transform: capitalize;
 }
 
@@ -81,7 +83,7 @@
 .projects__cardInfoTechnologies li {
     display: inline;
     width: 100px;
-    border: 1px solid var(--Cyan);
+    border: 1px solid var(--Orange);
     border-width: 1px 0;
 
     font-family: 'Roboto', sans-serif;
@@ -110,7 +112,7 @@
 .projects__cardButtons .button--white {
     background: #fff;
     color: #000;
-    border: 1px solid var(--Blue);
+    border: 1px solid var(--Orange);
 }
 
 .projects__cardButtons .button--white:hover {
@@ -133,9 +135,9 @@
     width: 30px;
 
     background: #fff;
-    border: 1px solid var(--DarkCyan);
+    border: 1px solid var(--DarkOrange);
     border-radius: 5px;
-    color: var(--DarkCyan);
+    color: var(--DarkOrange);
 
     font-weight: 600;
     cursor: pointer;
@@ -146,11 +148,11 @@
     background:var(--DarkGray);
 }
 .projects__navButton--selected{
-    background:var(--DarkCyan);
+    background:var(--DarkOrange);
     color: #fff;
 }
 .projects__navButton--selected:hover{
-    background:var(--DarkCyan);
+    background:var(--DarkOrange);
 }
 
 @media (max-width:930px) {

@@ -49,19 +49,18 @@
     font-size: 1rem;
     cursor: pointer;
 
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
+    color: rgb(255, 255, 255);
 }
 
 .header__navbar li:hover {
     color: #fff;
-    background: linear-gradient(180deg, rgba(0, 173, 161, 0) 0%, #00ADA1 100%);
+    background: linear-gradient(180deg, var(--DarkOrange) 0%, var(--VeryDarkOrange) 100%);
 }
 
-.header__navbar li a {
-    color: #000;
-    text-decoration: none;
-}
+
 
 .header__buttonMenu {
     display: none;
@@ -90,10 +89,7 @@
     .button--navbar {
         grid-area: buttonContact;
         margin-right: calc(25px + var(--GeneralMarginWidth));
-        /* animation whit toggle r menu
-        position: absolute;
-         top:50px;
-        */
+   
     }
 
     .header__buttonMenu {
@@ -116,7 +112,7 @@
         height: 100%;
     }
 
-    /*TODO:*/
+  
     /*Responsive menu with animation*/
 
     .header__rMenu {
@@ -149,22 +145,26 @@
 
     .header__rMenu li {
         height: min-content;
-
     }
 
     .header__rMenu li a {
         display: block;
         padding: 25px 0;
-        border-top: 1px solid var(--Cyan);
+        border-top: 1px solid var(--Orange);
         font-size: 2rem;
         cursor: pointer;
         text-decoration: none;
         color: #fff;
         width: 100%;
     }
+    
+    .header__rMenu li:last-child{
+        border-bottom: 1px solid var(--Orange);
+
+    }
 
     .header__rMenu ul li:hover {
-        background-color: var(--DarkBlue);
+        background-color: var(--VeryDarkOrange);
     }
 
     @keyframes rMenuAnimation--open {

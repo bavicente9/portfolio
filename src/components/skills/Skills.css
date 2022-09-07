@@ -6,7 +6,7 @@
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
-    color: var(--DarkBlue);
+    color: var(--DarkOrange);
     margin-bottom: 50px;
 }
 
@@ -32,10 +32,12 @@
     grid-template-columns: 100px;
     grid-template-rows: 100px 75px;
     
-    border: 1px solid var(--Blue);
+    border: 1px solid var(--Orange);
     border-radius: 15px;
     overflow: hidden;
     transition-duration: 0.34s;
+    
+    color: #fff;
 }
 
 

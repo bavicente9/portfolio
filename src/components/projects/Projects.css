@@ -59,6 +59,8 @@
 
 .projects__cardInfo {
     margin: 10px;
+    height: 90%;
+    width: 95%;
 }
 
 .projects__cardInfo h2 {

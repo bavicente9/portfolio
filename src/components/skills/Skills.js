@@ -5,7 +5,7 @@ export const Skills = ({ infoJson }) => {
 
     return (
         <section aria-label='skills' id='skills' className='skills'>
-            <h1>Skills</h1>
+            <h1>Technologies</h1>
             <ul className='skills__container' aria-label='list of skills'>
                 {
                     //generate the skills
@@ -18,7 +18,6 @@ export const Skills = ({ infoJson }) => {
                         )
                     })
                 }
-
             </ul>
         </section>
     )

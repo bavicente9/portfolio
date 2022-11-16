@@ -1,28 +1,34 @@
 [
     {
+        "name": "JavaScript",
+        "img": "./images/icons/icon_javaScript.svg"
+    },
+    {
         "name": "React",
         "img": "./images/icons/icon_react1.svg"
     },
     {
-        "name": "JavaScript",
-        "img": "./images/icons/icon_javaScript.svg"
+        "name": "Redux",
+        "img": "./images/icons/icon_redux.svg"
+    },
+    {
+        "name": "Jest",
+        "img": "./images/icons/icon_jest.svg"
+    },
+    {
+        "name": "Sencha ExtJs",
+        "img": "./images/icons/icon_sencha.svg"
     },
     {
         "name": "CSS",
         "img": "./images/icons/icon_css.svg"
     },
     {
-        "name": "HTML5",
-        "img": "./images/icons/icon_html.svg"
-    },
-  
-    {
         "name": "Sass",
         "img": "./images/icons/icon_sass.svg"
     },
     {
-        "name": "Redux",
-        "img": "./images/icons/icon_redux.svg"
+        "name": "HTML5",
+        "img": "./images/icons/icon_html.svg"
     }
-  
 ]

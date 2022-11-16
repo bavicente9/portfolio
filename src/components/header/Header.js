@@ -30,7 +30,7 @@ export const Header = () => {
                     <ul>
                         <li className='navbar__item'><a rel='section' href='#presentation'>Home</a></li>
                         <li className='navbar__item'><a rel='section' href='#projects' >Projects</a></li>
-                        <li className='navbar__item'><a rel='section' href='#skills'>Skills</a></li>
+                        <li className='navbar__item'><a rel='section' href='#skills'>Technologies</a></li>
                     </ul>
                 </nav>
 

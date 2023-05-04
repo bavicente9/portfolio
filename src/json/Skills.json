@@ -20,6 +20,10 @@
         "img": "./images/icons/icon_sencha.svg"
     },
     {
+        "name": "Cypress",
+        "img": "./images/icons/icon_cypress.jpeg"
+    },
+    {
         "name": "CSS",
         "img": "./images/icons/icon_css.svg"
     },

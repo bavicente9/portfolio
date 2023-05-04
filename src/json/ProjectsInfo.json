@@ -1,5 +1,19 @@
 [
     {
+        "name": "beuty salon website",
+        "image": "./images/projects/maribelnails.png",
+        "technologies": [
+            "React",
+            "React Router",
+            "JavaScript",
+            "CSS",
+            "HTML"
+        ],
+        "description": "This is a website for a beuty salon that i design with Figma, it has a responsive design and i made it with React, React Router, javaScript and CSS.It shows its services, contact info and the location with google maps.",
+        "link_liveDemo": "https://www.maribelnails.com/",
+        "link_github": "https://github.com/bavicente9/web-maribel-nails"
+    },
+    {
         "name": "Todo App",
         "image": "./images/projects/todoApp.png",
         "technologies": [
@@ -13,20 +27,6 @@
         "description": "The classic todo app with a few twists! This app includes a dark/light theme toggle.",
         "link_liveDemo": "https://phenomenal-trifle-e82848.netlify.app/",
         "link_github": "https://github.com/bavicente9/todo-app"
-    },
-    {
-        "name": "beuty salon website",
-        "image": "./images/projects/maribelnails.png",
-        "technologies": [
-            "React",
-            "React Router",
-            "JavaScript",
-            "CSS",
-            "HTML"
-        ],
-        "description": "This is a website for a beuty salon that i design with Figma, it has a responsive design and i made it with React, React Router, javaScript and CSS.It show the services, contact info and a map of the salon's location.",
-        "link_liveDemo": "https://www.maribelnails.com/",
-        "link_github": "undefined"
     },
     {
         "name": "My Portfolio",
@@ -53,7 +53,7 @@
             "Jest"
 
         ],
-        "description":"This is a url shortering that use an API to generate the results, is a challenge from frontendmentor.io. To make this project i used React, JavaScript, CSS and for unit tests i used Jest.",
+        "description":"This is a url shortering that use an API to generate the results. To make this project i used React, JavaScript, CSS and for unit tests i used Jest.",
         "link_liveDemo": "https://vigilant-pike-1c4239.netlify.app/",
         "link_github": "https://github.com/bavicente9/url-shortening-api"
     },
@@ -77,7 +77,7 @@
             "Css",
             "HTML"
         ],
-        "description": "This project is a frontendmentor.io challenge is a tips calculator with a responsive layout. i used JavaScript, CSS and HTML to make this project.",
+        "description": "This project is a frontendmentor.io challenge is a tips calculator with a responsive layout. I used JavaScript, CSS and HTML to make this project.",
         "link_liveDemo": "https://awesome-sammet-c9ab06.netlify.app",
         "link_github": "https://github.com/bavicente9/TipCalculator"
     },
@@ -92,5 +92,5 @@
         "link_liveDemo": "undefined",
         "link_github": "https://github.com/bavicente9/bill-Software"
     }
-    
+
 ]
